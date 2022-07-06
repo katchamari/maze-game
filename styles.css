@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+.hidden {
+  display: none !important;
+}
+h1 {
+  color: #fff;
+  font-size: 36px;
+
+}
+.winner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+  height: 100vh;
+  width: 100vw;
+}
+.maze{
+    width:100vw;
+    height:100vh;
+}
+button{
+    box-shadow:none;
+    border:3px solid #FF8600;
+    color:#FFF;
+    background:none;
+    outline:none;
+    padding:15px;
+    border-radius:5px;
+    font-size:24px;
+    font-weight:inherit;
+    transition:all 0.3s;
+}
+button:hover{
+ background:#FF8600;   
+}
+canvas{
+    display:block;
+}
