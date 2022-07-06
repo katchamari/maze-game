@@ -15,3 +15,4 @@ Features I'd like to eventually add:
 * Win counter
 * Timer
 * Option to set number of cells before starting
+* support for mobile?
